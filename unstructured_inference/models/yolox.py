@@ -74,7 +74,6 @@ class UnstructuredYoloXModel(UnstructuredObjectDetectionModel):
 
         available_providers = C.get_available_providers()
         ordered_providers = [
-            "TensorrtExecutionProvider",
             "CUDAExecutionProvider",
             "CPUExecutionProvider",
         ]
